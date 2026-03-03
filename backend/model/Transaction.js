@@ -7,7 +7,7 @@ const transactionSchema = new mongoose.Schema(
       ref: "User",
       required: true,
     },
-    type: {
+    type: {xsfsf
       type: String,
       required: true,
       enum: ["income", "expense"],
@@ -34,5 +34,6 @@ const transactionSchema = new mongoose.Schema(
     timestamps: true,
   }
 );
+console.log("chnaes done");
 
 module.exports = mongoose.model("Transaction", transactionSchema);
