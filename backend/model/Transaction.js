@@ -35,5 +35,6 @@ const transactionSchema = new mongoose.Schema(
   }
 );
 console.log("chnaes done");
+console.log("vinay");
 
 module.exports = mongoose.model("Transaction", transactionSchema);
