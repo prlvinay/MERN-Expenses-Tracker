@@ -34,7 +34,6 @@ const transactionSchema = new mongoose.Schema(
     timestamps: true,
   }
 );
-console.log("chnaes done");
-console.log("vinay");
+console.log("Transaction model loaded");
 
 module.exports = mongoose.model("Transaction", transactionSchema);
